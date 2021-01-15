@@ -1,0 +1,34 @@
+nav ul{
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li{
+  margin-left: 20px;
+}
+
+nav a:link{
+  padding: 15px;
+  background-color: rgb(226, 171, 171);
+}
+
+.sublist{
+  flex-direction: column;
+  position: absolute;
+  margin-top: 15px;
+  display: none;
+}
+
+.sublist a:link{
+  display: block;
+  background-color: rgb(179, 107, 107)
+}
+.sublist li{
+  margin-left: -30px;
+}
+
+.itemWithDropdown:hover .sublist{
+  display: flex;
+}
