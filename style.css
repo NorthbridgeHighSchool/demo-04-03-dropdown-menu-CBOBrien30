@@ -11,7 +11,8 @@ nav li{
 
 nav a:link{
   padding: 15px;
-  background-color: rgb(226, 171, 171);
+  background-color: rgb(210, 171, 226);
+  color: rgb(71, 22, 117);
 }
 
 .sublist{
@@ -22,13 +23,30 @@ nav a:link{
 }
 
 .sublist a:link{
-  display: block;
-  background-color: rgb(179, 107, 107)
+  background-color: rgb(159, 224, 226);
+  color: rgb(12, 93, 107);
+  padding: 15px;
 }
 .sublist li{
-  margin-left: -30px;
+  margin-left: 0;
 }
-
 .itemWithDropdown:hover .sublist{
   display: flex;
+}
+.sublist li a{
+  display: block;
+}
+nav a:hover{
+  background-color: rgb(238, 214, 150);
+  color: rgb(194, 91, 31);
+  padding: 15px;
+}
+.sublist a:hover{
+  background-color: rgb(238, 169, 215);
+  color: rgb(117, 22, 93);
+  padding: 15px;
+}
+html{
+  background-color: rgb(190, 235, 186);
+  color: rgb(25, 117, 22);
 }
